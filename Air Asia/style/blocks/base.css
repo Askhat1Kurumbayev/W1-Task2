@@ -1,0 +1,136 @@
+html {
+	font-family: "Open Sans";
+	scroll-behavior: smooth;
+	font-size: 16px;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #fff;
+	margin: 0;
+	background-color: #001821;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	cursor: pointer;
+}
+a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.3s all;
+	display: block;
+}
+
+.hover {
+color: 
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.logo, .menu, .menu__item, .contacts {
+  display: inline-block;
+}
+.logo, .contacts {
+	margin-top: 29px;
+}
+
+.logo {
+	float: left;
+}
+
+.contacts {
+	float: right;
+}
+
+.contacts__phone {
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 35px;
+}
+
+.contacts__info {
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+text-decoration-line: underline;
+text-align: end;
+}
+
+.menu {
+	margin-left: 79px;
+	margin-top: 42px;
+}
+
+.menu__item {
+	margin-right: 54px;
+}
+
+.menu__item: :last-child {
+	margin-right: 0px;
+}
+
+.button {
+	display:	black;
+	background: #f5170E;
+	border-radius: 35px;
+	padding: 18px 0;
+	width: 168px;
+	color:#fff;
+	text-align: center;
+}
+
+title {
+	font-family: 'Open sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size:36px;
+	line-height: 49px;
+	position: relative;
+}
+
+.title--dark {
+	color: #000;
+}
